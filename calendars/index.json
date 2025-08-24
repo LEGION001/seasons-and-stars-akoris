@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/rayners/fvtt-seasons-and-stars/main/schemas/calendar-collection-v1.0.0.json",
+  "name": "Akoris Calendar Pack",
+  "description": "Custom calendars for Akoris",
+  "version": "1.0.0",
+  "author": "LEGION",
+  "calendars": [
+    {
+      "id": "akoris-standard",
+      "name": "Akoris Calendar",
+      "description": "A custom calendar for Akoris",
+      "file": "akoris-calendar.json",
+      "preview": "15th of firstflow, 1024 AoD",
+      "tags": ["fantasy", "homebrew"],
+      "author": "LEGION"
+    }
+  ]
+}

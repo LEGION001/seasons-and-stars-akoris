@@ -1,0 +1,138 @@
+{
+  "id": "my-fantasy",
+  "translations": {
+    "en": {
+      "label": "Akoris Calendar",
+      "description": "Custom calendar for Akoris",
+      "setting": "Akoris"
+    }
+  },
+  "year": {
+    "epoch": 0,
+    "currentYear": 1024,
+    "prefix": "",
+    "suffix": " AoP",
+    "startDay": 1
+  },
+  "leapYear": {
+    "rule": "gregorian"
+  },
+  "months": [
+    {
+      "name": "Deepsnow",
+      "abbreviation": "Deep",
+      "days": 31,
+      "description": "The Last month of Winter, when the snows are at their deepest"
+    },
+    {
+      "name": "Snowmelt",
+      "abbreviation": "Snow",
+      "days": 31,
+      "description": "The first month of spring, when the snows begin to melt"
+    },
+    {
+      "name": "Firstflow",
+      "abbreviation": "First",
+      "days": 32,
+      "description": "The second month of spring, when the rivers swell to their largest"
+    },
+    {
+      "name": "Blossomtide",
+      "abbreviation": "Bloss",
+      "days": 31,
+      "description": "The third month of spring, when the blossoms bloom fully"
+    },
+    {
+      "name": "Greenfield",
+      "abbreviation": "Green",
+      "days": 31,
+      "description": "The first month of summer, when the fields are fully green"
+    },
+    {
+      "name": "Highsun",
+      "abbreviation": "High",
+      "days": 32,
+      "description": "The second month of summer, when the sun remains high"
+    },
+    {
+      "name": "Goldleaf",
+      "abbreviation": "Goldleaf",
+      "days": 31,
+      "description": "The third month of summer"
+    },
+    {
+      "name": "Harvesthaul",
+      "abbreviation": "Harvest",
+      "days": 31,
+      "description": "The first month of autumn"
+    },
+    {
+      "name": "Redfall",
+      "abbreviation": "Red",
+      "days": 32,
+      "description": "The second month of autumn"
+    },
+    {
+      "name": "Whitewind",
+      "abbreviation": "White",
+      "days": 31,
+      "description": "The third month of autumn"
+    },
+    {
+      "name": "Frostfall",
+      "abbreviation": "Frost",
+      "days": 31,
+      "description": "The first month of winter"
+    },
+    {
+      "name": "Lastlight",
+      "abbreviation": "Last",
+      "days": 32,
+      "description": "The second month of winter"
+    }
+    // ... more months
+  ],
+  "weekdays": [
+    {
+      "name": "Warriors' Day",
+      "abbreviation": "War",
+      "description": "Day of warriors"
+    },
+    {
+      "name": "Smiths' Day",
+      "abbreviation": "Sm",
+      "description": "Day of labor and craftsmanship"
+    },
+    {
+      "name": "Judges' Day",
+      "abbreviation": "Jud",
+      "description": "Day of labor and craftsmanship"
+    },
+    {
+      "name": "Farmers' Day",
+      "abbreviation": "Far",
+      "description": "Day of labor and craftsmanship"
+    },
+    {
+      "name": "Hunters' Day",
+      "abbreviation": "Hun",
+      "description": "Day of labor and craftsmanship"
+    },
+    {
+      "name": "Mages' Day",
+      "abbreviation": "Mag",
+      "description": "Day of labor and craftsmanship"
+    },
+    {
+      "name": "Priests' Day",
+      "abbreviation": "Pri",
+      "description": "Day of labor and craftsmanship"
+    }
+    // ... more weekdays
+  ],
+  "dateFormats": {
+    "default": "{{ss-day format=\"ordinal\"}} {{ss-month format=\"name\"}}, {{year}} AR",
+    "short": "{{ss-day}}/{{ss-month}}/{{year}}",
+    "long": "{{ss-weekday format=\"name\"}}, {{ss-day format=\"ordinal\"}} {{ss-month format=\"name\"}}, {{year}} AR"
+  }
+}
