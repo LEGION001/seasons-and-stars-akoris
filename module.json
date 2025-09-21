@@ -3,6 +3,10 @@
   "title": "Seasons & Stars: Akoris Calendars",
   "description": "Custom calendars for my campaign setting",
   "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
   "authors": [
     {
       "name": "LEGION",
